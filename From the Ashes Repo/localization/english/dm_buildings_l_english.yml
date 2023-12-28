@@ -1,0 +1,134 @@
+﻿l_english: 
+
+  ## Common Strings
+
+  str_ownership: "Ownership"
+  str_local_barons: "Local Barons"
+  str_private_ownership: "Private Ownership"
+  str_public_trading: "Public Trading"
+  str_government_run: "Government Run"
+  str_order_run: "Order Run"
+  str_church_run: "Church Run"
+
+  #### Rural
+  bg_rural: "Rural"
+
+  ### Common PMs
+  pmg_ownership_common_rural: "Ownership"
+
+  pm_ownership_rural_barons: "$str_local_barons$"
+  pm_ownership_rural_private: "$str_private_ownership$"
+  pm_ownership_rural_public_trading: "$str_public_trading$"
+  pm_ownership_rural_government_run: "$str_government_run$"
+  pm_ownership_rural_worker_cooperative_rural_industry: "Worker Cooperative"
+  pm_ownership_rural_order_run: "$str_order_run$"
+  pm_ownership_rural_church_run: "$str_church_run$"
+
+  pmg_transport_common_rural: "Transport"
+
+  pm_transportation_rural_brahmin: "Brahmin"
+  pm_transportation_rural_basic: "Basic Transport"
+  pm_transportation_rural_extensive_network: "Extensive Network"
+
+  ### Water
+
+  bg_water_facilities: "Water Facilities"
+  bg_water_collectors: "Water Collectors"
+  bg_water_wells: "Water Wells"
+  bg_water_treatment: "Water Treatment Plants"
+  bg_water_desalination: "Water Desalination Plants"
+
+  # Water buildings
+  building_water_well: "Water Well"
+  building_water_well_lens_option: "Expand $building_water_well$"
+  building_water_collector: "Water Collectors"
+  building_water_collector_lens_option: "Expand $building_water_collector$"
+  building_water_treatment: "Water Treatment Plant"
+  building_water_treatment_lens_option: "Expand $building_water_treatment$"
+  building_water_desalination: "Water Desalination Plant"
+  building_water_desalination_lens_option: "Expand $building_water_desalination$"
+
+  ## Water PMs
+  pmg_water_well_base: "Wells"
+  pmg_water_well_treatment: "Water Treatment"
+  pmg_water_well_automation: "Automation"
+  pmg_water_collector_base: "Collectors"
+  pmg_water_collector_treatment: "$pmg_water_well_treatment$"
+  pmg_water_collector_automation: "$pmg_water_well_automation$"
+  pmg_water_treatment_base: "Water Inlets"
+  pmg_water_treatment_treatment: "$pmg_water_well_treatment$"
+  pmg_water_treatment_automation: "$pmg_water_well_automation$"
+  pmg_water_desalination_base: "Water Pumps"
+  pmg_water_desalination_treatment: "$pmg_water_well_treatment$"
+  pmg_water_desalination_automation: "$pmg_water_well_automation$"
+
+  pm_water_well_base_hand_digging: "Hand Dug Wells"
+  pm_water_well_base_picks_shovels: "Constructed Wells"
+  pm_water_well_base_pumpjacks: "Pumpjacks"
+  pm_water_well_treatment_none: "None"
+  pm_water_well_treatment_coal_filtration: "Coal Filtration"
+  pm_water_well_treatment_chemical_treatment: "Chemical Treatment"
+  pm_water_well_automation_none: "$pm_water_well_treatment_none$"
+  pm_water_well_automation_mechanized_tools: "Mechanized Tools"
+  pm_water_well_automation_water_tube_boiler: "Water-Tube Boiler"
+  pm_water_well_automation_modern_machines: "Modern Machines"
+  pm_water_collector_basic: "Basic Water Catchers"
+  pm_water_collector_improved: "Improved Water Catchers"
+  pm_water_collector_treatment_none: "$pm_water_well_treatment_none$"
+  pm_water_collector_treatment_coal_filtration: "$pm_water_well_treatment_coal_filtration$"
+  pm_water_collector_treatment_chemical_treatment: "$pm_water_well_treatment_chemical_treatment$"
+  pm_water_collector_automation_none: "$pm_water_well_treatment_none$"
+  pm_water_collector_automation_mechanized_tools: "$pm_water_well_automation_mechanized_tools$"
+  pm_water_collector_automation_water_tube_boiler: "$pm_water_well_automation_water_tube_boiler$"
+  pm_water_collector_automation_modern_machines: "$pm_water_well_automation_modern_machines"
+  pm_water_treatment_basic: "Basic Inlet"
+  pm_water_treatment_improved: "Improved Water Pumps"
+  pm_water_treatment_treatment_none: "$pm_water_well_treatment_none$"
+  pm_water_treatment_treatment_coal_filtration: "$pm_water_well_treatment_coal_filtration$"
+  pm_water_treatment_treatment_chemical_treatment: "$pm_water_well_treatment_chemical_treatment$"
+  pm_water_treatment_automation_none: "$pm_water_well_treatment_none$"
+  pm_water_treatment_automation_mechanized_tools: "$pm_water_well_automation_mechanized_tools$"
+  pm_water_treatment_automation_water_tube_boiler: "$pm_water_well_automation_water_tube_boiler$"
+  pm_water_treatment_automation_modern_machines: "$pm_water_well_automation_modern_machines$"
+  pm_water_desalination_treatment_coal_filtration: "$pm_water_well_treatment_coal_filtration$"
+  pm_water_desalination_treatment_chemical_treatment: "$pm_water_well_treatment_chemical_treatment$"
+  pm_water_desalination_automation_none: "$pm_water_well_treatment_none$"
+  pm_water_desalination_automation_mechanized_tools: "$pm_water_well_automation_mechanized_tools$"
+  pm_water_desalination_automation_water_tube_boiler: "$pm_water_well_automation_water_tube_boiler$"
+  pm_water_desalination_automation_modern_machines: "$pm_water_well_automation_modern_machines$"
+
+  ### Salvage
+  ## Subsistence
+  bg_subsistence_buildings: "Subsistence"
+  building_subsistence_salvage: "Subsistence Salvage"
+  bg_subsistence_salvage: "$building_subsistence_salvage$"
+
+  pmg_subsistance_salvaging_base: "Base"
+  pmg_subsistance_salvaging_interaction: "Waster Interactions"
+
+  pm_subsistance_salvaging_base: "$pmg_subsistance_salvaging_base$"
+  pm_subsistance_salvaging_isolation: "Isolation"
+  pm_subsistance_salvaging_trade: "Trade"
+  pm_subsistance_salvaging_taxation: "Taxation"
+
+  ### Agriculture
+  building_subsistence_farms: "Subsistence Farms"
+
+  pmg_subsistance_farms_base: "$pmg_subsistance_salvaging_base$"
+  pmg_subsistance_farms_home_workshops: "$pmg_subsistance_salvaging_home_workshops$"
+  pmg_subsistance_farms_independence: "$pmg_subsistance_salvaging_independence$"
+  pmg_subsistance_agri_ownership: "$pmg_subsistance_salvaging_ownership$"
+
+  pm_subsistence_ownership_farming_independent: "Independent Peasants"
+  pm_subsistence_ownership_farming_barons: "Subservient Peasants"
+  pm_subsistence_ownership_farming_private: "Hired Peasants"
+  pm_subsistance_farming_base: "$pmg_subsistance_salvaging_base$"
+  pm_subsistance_farming_no_workshops: "$pm_subsistance_salvaging_no_workshops$"
+  pm_subsistance_farming_home_workshops: "$pmg_subsistance_salvaging_home_workshops$"
+  pm_subsistance_farming_independence_free: "Free Peasants"
+  pm_subsistance_farming_independence_serfs: "Extorted Peasants"
+
+  #### Urban
+  # Trade Center
+  pm_trade_center_trading_barons: "Trading Barons"
+  pm_trade_center_independent_traders: "Independent Traders"
