@@ -1,0 +1,85 @@
+﻿STATES = {
+	
+	s:STATE_HOME_COUNTIES = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { xE0E0C0 x7543C8 x60E0C0 x58D3AE x625993 x39F45B x19CECD x800020 xE060C0 }
+		}
+		
+		add_homeland = cu:british
+	}
+	s:STATE_LANCASHIRE = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x410CE6 x60E000 xE0E000 xA242B2 xE06000 xE74158 x65617C x137263 }
+		}
+		
+		add_homeland = cu:british
+	}
+	s:STATE_PROVENCE = {
+		create_state = {
+			country = c:SAR
+			owned_provinces = { x5080E0 }
+			state_type = unincorporated
+		}
+
+		create_state = {
+			country = c:FRA
+			owned_provinces = { "x3040E0" "x31C0DF" "x6D5E3F" "xB040E0" "xB0C060" "xB0C0E0" "xC03918" "xCB9C34" }
+		}
+		
+		add_homeland = cu:french
+		add_homeland = cu:occitan
+	}
+	s:STATE_NORMANDY = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = { "x065CAE" "x0B7098" "x1020C0" "x65728E" "x79C0E6" "x9020C0" "x90A040" "xA786BB" "xB06080" "xB8903B" "xD642B5" }
+		}
+		
+		add_homeland = cu:french
+	}
+	s:STATE_ANDALUSIA = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x58E3EB x809020 x2B6ABC xD06000 x59202C }
+		}
+		
+		add_homeland = cu:spanish
+	}
+	s:STATE_HOLLAND = {
+		create_state = {
+			country = c:NET
+			owned_provinces = { x777732 x80C0A0 xC04021 x01C0A0 }
+		}
+		
+		add_homeland = cu:dutch
+	}
+	s:STATE_BALUCHISTAN = {
+		create_state = {
+			country = c:MAK
+			owned_provinces = { x978421 x4E09C5 xF9577D x45F2DD x113E0B x7FE584 xC070E0 xC6E602 xB0F79E x407060 x951063 x8ED831 x2E7961 xE87BBF }
+		}
+		create_state = {
+			country = c:OMA
+			state_type = treaty_port
+			owned_provinces = { xB7B2BD }
+		}
+		create_state = {
+			country = c:KAL
+			owned_provinces = { x782112 x1161D9 xD4EC50 x43F4B8 x4F800F x8DC922 x6D6D6B xA3655B x4B2EAD x556C63 xE92A58 x61D696 xDEE571 x626396 x97C017 xF78D0D x3C9B5F x954C12 x7D60E7 xB2AAA7 x0BAF8C x968562 x1D0224 x675BCE xBAE3D2 x4529BD x62BEAA xD6DD8A xC6D9E8 x1EF53E x56CF62 x2FF46D xBB836E xCD77FD x2B7441 xEC696F x5CBA3C x17D8AB xD575B0 xE712E1 x9EED5C x3EFD1E x4070E0 xF1414C x109CC0 xA55509 x35754E x0279A0 xDB0F57 x6F000D x6EA076 xDF30A0 x1DDD4D x8BB146 xB8655C x3C3D7F x34A39B xE7A309 x7CA0E0 x5E7221 x454FE3 xC13040 x1910AD x4DC3FF x4AAAC0 }
+		}
+		
+		add_homeland = cu:baluchi
+		add_homeland = cu:pashtun
+	}
+	
+	s:STATE_POMERANIA = {
+		create_state = {
+			country = c:PRU
+			owned_provinces = { xA9BD82 x8C6982 x19AE19 x3C26DD x6A53CF xA04121 xE1A03A x567452 x86E6F2 xCDEAE4 xA0C020 xD4C37D x8D1E12 xEF5730 x8001A0 x89A2A9 }
+		}
+		
+		add_homeland = cu:north_german
+	}
+}

@@ -1,0 +1,31 @@
+﻿STATES = {
+	
+	s:STATE_MEKONG = {
+		create_state = {
+			country = c:DAI
+			owned_provinces = { x246E58 x474B0B x4080B0 x223DD3 x1D9718 x4923A3 xDF070D xE5A4DA x217F68 x0C662E x7D46C6 xB366DB x248BCA xA4DBB7 x00C0B0 xD8BFF1 xFD66E6 x5F0DAB x47ADCE x841E31 x72E436 x1C5BE6 xC080B0 x5E16EB x58B174 x70B060 x3C8C22 }
+		}
+		
+		add_homeland = cu:vietnamese
+		add_homeland = cu:khmer
+	}
+	
+	s:STATE_SHANDONG = {
+		create_state = {
+			country = c:CHI
+			owned_provinces = { 
+				"x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180"
+			}
+		}
+		
+		add_homeland = cu:han
+	}
+	s:STATE_SUZHOU = {
+		create_state = {
+			country = c:CHI
+			owned_provinces = { x61F061 x6E575B x86FF7E xD0D0C0 x301000 xB01101 xE9E92E }
+		}
+		
+		add_homeland = cu:han
+	}
+}
