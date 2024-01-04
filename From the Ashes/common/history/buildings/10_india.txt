@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_NORTH_BENGAL={
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -85,8 +85,78 @@
 			}
 		}
 	}
+	s:STATE_SOUTH_BENGAL={
+		region_state:GBR={
+			create_building={
+				building="building_government_administration"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}			
+			create_building={
+				building="building_textile_mills"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
+			}
+			create_building={
+				building="building_paper_mills"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+			}
+			create_building={
+				building="building_shipyards"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
+			}
+			create_building={
+				building="building_military_shipyards"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
+			}
+			create_building={
+				building="building_arms_industry"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+			}
+			create_building={
+				building="building_dye_plantation"
+				level=12
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
+			}
+			create_building={
+				building="building_port"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+	}
 	s:STATE_ASSAM={
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -108,7 +178,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -198,7 +268,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -348,7 +418,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -484,7 +554,7 @@
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 		}
 	}
 	s:STATE_NAGPUR={
@@ -554,76 +624,6 @@
 				level=10
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
-			}
-		}
-	}
-	s:STATE_SOUTH_BENGAL={
-		region_state:BIC={
-			create_building={
-				building="building_government_administration"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-			}
-			create_building={
-				building="building_construction_sector"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-			}			
-			create_building={
-				building="building_textile_mills"
-				level=8
-				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
-			}
-			create_building={
-				building="building_paper_mills"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
-			}
-			create_building={
-				building="building_shipyards"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_merchant_guilds_building_shipyards" }
-			}
-			create_building={
-				building="building_military_shipyards"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_military_shipyards" "pm_military_shipbuilding_wooden" }
-			}
-			create_building={
-				building="building_arms_industry"
-				level=4
-				reserves=1
-				activate_production_methods={ "pm_muskets" "pm_merchant_guilds_building_arms_industry" }
-			}
-			create_building={
-				building="building_silk_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=12
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
-				building="building_port"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -798,11 +798,11 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 		}
 	}
 	s:STATE_CIRCARS={
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -880,7 +880,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -910,7 +910,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -934,7 +934,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -1052,7 +1052,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:BIC={
+		region_state:GBR={
 			create_building={
 				building="building_government_administration"
 				level=8

@@ -36,7 +36,7 @@ GBR = {
 	tier = empire	
 	
 	cultures = { british scottish }
-	capital = STATE_HOME_COUNTIES
+	capital = STATE_SOUTH_BENGAL
 }
 
 FRA = {
@@ -47,9 +47,8 @@ FRA = {
 	tier = empire
 	
 	cultures = { french }
-	capital = STATE_ILE_DE_FRANCE
+	capital = STATE_CONSTANTINE
 }
-
 
 ## Indian Indigenous Countries
 

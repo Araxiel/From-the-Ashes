@@ -1,0 +1,134 @@
+﻿POPULATION = {
+	
+	c:AWA = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:KUT = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BAS = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BER = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BHO = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BIK = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BUN = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:GWA = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:HYD = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	
+	c:ORI = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:NAG = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:BAS = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:MYS = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:TRA = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:MEW = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+	
+	c:JAI = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:JOD = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+
+	c:BIK = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+	c:JAS = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+		
+	}
+	
+}

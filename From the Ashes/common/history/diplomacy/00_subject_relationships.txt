@@ -1,12 +1,8 @@
 ﻿DIPLOMACY = {
 
 	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:BIC
-			type = dominion
-		}
-	}
-	c:BIC = {
+
+		## Indian Subjects
 		create_diplomatic_pact = {
 			country = c:KUT
 			type = puppet
@@ -65,10 +61,6 @@
 		}	
 		create_diplomatic_pact = {
 			country = c:JAI
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:BER
 			type = puppet
 		}
 		create_diplomatic_pact = {

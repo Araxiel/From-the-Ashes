@@ -1,0 +1,8 @@
+﻿CHARACTERS = {
+	c:GBR = {
+	
+		create_character = {
+			template = gbr_queen_victoria_template
+		}
+	}
+}
