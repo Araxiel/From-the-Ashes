@@ -1,0 +1,171 @@
+﻿STATE = {
+	
+	s:STATE_CORSICA = {
+		create_state = {
+			country = c:COR
+			owned_provinces = { x706E78 xEF4020 x396B5C }
+			state_type = unincorporated
+		}
+		
+		add_homeland = cu:corsican
+	}
+	
+	s:STATE_MALTA = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x015121 x3a8b51 }
+			state_type = unincorporated
+		}
+		
+		add_homeland = cu:maltese
+	}
+	
+	s:STATE_VENETIA = {
+		create_state = {
+			country = c:AUS
+			owned_provinces = { xB001A0 x3083C8 x3080A0 x8EEB7A xB080A0 x5141E0 x605424 x6984B4 x554866 xC02A3F }
+		}
+		
+		add_homeland = cu:north_italian
+	}
+	
+	s:STATE_SICILY = {
+		create_state = {
+			country = c:SIC
+			owned_provinces = { x805120 x8A0548 xF0AF66 xC090A0 x702CA8 x00D020 xB7B8F1 }
+		}
+		
+		add_homeland = cu:south_italian
+	}
+	
+	s:STATE_BEIRA = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { xD0A000 xA64B2E x641376 x37ADD8 x0EF845 xD0E0C0 x9238AD xE415AF x3020A3 xF92B7F xE24C15 }
+		}
+		
+		add_homeland = cu:portuguese
+	}
+	s:STATE_ESTREMADURA = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { xD0A080 xA0F6EC x50A000 xD02000 x545164 }
+		}
+		
+		add_homeland = cu:portuguese
+	}
+	s:STATE_ALENTEJO = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { xEBA935 x84A822 xEFC9BC xB0177A xC3BFC4 xA07080 x8B17E3 x88DCE1 x207080 }
+		}
+		
+		add_homeland = cu:portuguese
+	}
+	s:STATE_MADEIRA = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { x385719 x4d5156}
+			state_type = unincorporated
+		}
+		
+		
+		add_homeland = cu:portuguese
+
+	}	
+
+	s:STATE_CAPE_VERDE = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { x4B7FA5 xe8e7a2 xa2e8c5 xa2c3e8}
+			state_type = unincorporated
+		}
+		
+		
+		add_homeland = cu:portuguese
+
+	}	
+
+	s:STATE_AZORES = {
+		create_state = {
+			country = c:POR
+			owned_provinces = { x90A080 x9B6D87 x769456 }
+			state_type = unincorporated
+		}
+		
+	
+		add_homeland = cu:portuguese
+
+	}	
+	
+	s:STATE_GALICIA = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { "x0EA604" "x167F12" "x33F984" "x50E040" "x583E92" "xB85939" "xD03554" "xD0E040" }
+		}
+		
+		add_homeland = cu:spanish
+		add_homeland = cu:galician
+	}
+	s:STATE_ASTURIAS = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { "x0F84B8" "x3E77F9" "x5060C0" "x525202" "xA1037C" "xBF2564" "xF0A000" }
+		}
+		
+		add_homeland = cu:spanish
+	}
+	s:STATE_CASTILE = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38 }
+		}
+		
+		add_homeland = cu:spanish
+	}
+	s:STATE_ARAGON = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x30A080 x5FB607 x3CBF9E x45B331 xA603C7 }
+		}
+		
+		add_homeland = cu:spanish
+	}
+	s:STATE_NAVARRA = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x48868C x702080 x10E0C0 xABE0B3 xAC1425 x9EC9B8 xCB3245 }
+		}
+		
+		add_homeland = cu:spanish
+		add_homeland = cu:basque
+	}
+	s:STATE_CATALONIA = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { xE0C020 xD616D2 x08B4D6 x11E041 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622 }
+		}
+		
+		add_homeland = cu:spanish
+		add_homeland = cu:catalan
+	}
+	s:STATE_BALEARES = {
+		create_state = {
+			country = c:SPA
+			owned_provinces = { x7D3FD7 x60F080 }
+		}
+		
+		add_homeland = cu:spanish
+		add_homeland = cu:catalan
+	}
+	
+	s:STATE_UMBRIA = {
+		create_state = {
+			country = c:PAP
+			owned_provinces = { x30C021 x72531E xD3A384 xE782CC x6E8D07 xD8F07B }
+		}
+		
+		add_homeland = cu:south_italian
+	}
+	
+}

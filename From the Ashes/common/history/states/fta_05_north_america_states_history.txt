@@ -1019,5 +1019,31 @@
 		add_homeland = cu:guajiro
 		add_homeland = cu:cariban
 	}
+	s:STATE_BAJA_CALIFORNIA = {
+		create_state = {
+			country = c:MEX
+			owned_provinces = { x205040 xBC4223 xC642C3 x1E47C8 x9F7207 x7546F8 x0418C4 xD34672 xDD6E50 x6320AE xF8AB7F x249043 x3FF655 x57EBCB x0D1D9D xD5E26E xB0A278 x21AA9D xBED6FE xA1B232 x657B7B x247143 x90DF58 x11D494 x567116 xD4D12E x5B4ABD xC42EA6 }
+		}
+		
+		add_homeland = cu:mexican
+		add_homeland = cu:oodham
+	}
+	
+	s:STATE_NEW_BRUNSWICK = {
+		create_state = {
+			country = c:NBS
+			owned_provinces = { 
+				xC91FD7 xEE2FFF x5A0CA8 x71A015 x326F36 xF01C37 x70A0CE x484A09 x082153 x62FC6A xDE0FD5 xBB0F05 x7040C0 x4D9EEE x8ED253 xD090A6 x20CF66 x66DFE7 x493CD4 x740012 x8E553E x70C040
+			}
+		}
+		create_state = {
+			country = c:NVS
+			owned_provinces = {
+				x085C83 xEC5B4B x406FBA xC060C0 xE4892F x99CA75 x380F20 xB95DB3 x905458 x8060C0 x80AA26 x6B5822 xCA0399 x63E1C4 xF95D47 x8CFA32 xEAFA99 xF04040
+			}
+		}
+		add_homeland = cu:anglo_canadian
+		add_homeland = cu:franco_canadian
+	}
 	
 }

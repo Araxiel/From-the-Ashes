@@ -1,0 +1,107 @@
+﻿
+PLT = {
+	color = { 130  135  240 }
+	
+	country_type = colonial
+
+	tier = empire
+	
+	cultures = { platinean }
+	capital = STATE_BUENOS_AIRES
+}
+
+## Minor/Releasable
+
+PBC = {
+    color = { 234 107 163 }
+    country_type = colonial
+    tier = empire
+    cultures = { south_andean }
+    capital = STATE_LA_PAZ
+}
+
+IQU = {
+    color = { 245 210 80 }
+    #country_type = unrecognized
+	country_type = decentralized
+    tier = principality
+    cultures = { quechua }
+    capital = STATE_ICA
+}
+
+NPU = {
+    color = { 157 55 55 }
+    country_type = colonial
+    tier = principality
+    cultures = { south_andean }
+    capital = STATE_LIMA
+}
+
+SPU = {
+    color = { 55 167 77 }
+    country_type = colonial
+    tier = principality
+    cultures = { south_andean }
+    capital = STATE_ICA
+}
+
+MNG = {
+	color = { 32 191 148 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { brazilian }
+	capital = STATE_MINAS_GERAIS
+}
+
+## Releasable
+
+AMZ = {
+	color = { 42 102 64 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+	
+	tier = kingdom
+	
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
+}
+
+GRI = {
+	color = { 203 32 83 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+	
+	tier = kingdom
+	
+	cultures = { guarani }
+	capital = STATE_AMAZONAS
+}
+
+AGJ = {
+	color = { 111 56 200 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { afro_brazilian }
+	capital = STATE_PERNAMBUCO
+}
+
+# Holding Area
+
+PLT = {
+	color = { 130  135  240 }
+	
+	country_type = colonial
+
+	tier = empire
+	
+	cultures = { platinean }
+	capital = STATE_BUENOS_AIRES
+}

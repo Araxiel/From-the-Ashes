@@ -1,0 +1,10 @@
+﻿SIA = {
+	color = { 88  137  172 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { thai }
+	capital = STATE_BANGKOK
+}

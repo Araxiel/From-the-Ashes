@@ -1,0 +1,7 @@
+﻿FND = {
+	color = { 220 220 245 }
+	country_type = colonial
+	tier = hegemony
+	cultures = { north_andean south_andean }
+	capital = STATE_PANAMA
+}

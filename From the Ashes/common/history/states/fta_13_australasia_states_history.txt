@@ -21,7 +21,6 @@
 		add_homeland = cu:australian
 		add_homeland = cu:aborigine		
 	}
-
 	s:STATE_TASMANIA = {
 		create_state = {
 			country = c:TAS
@@ -34,7 +33,6 @@
 		add_homeland = cu:aborigine		
 	
 	}
-
 	s:STATE_QUEENSLAND = {
 		create_state = {
 			country = c:NSW
@@ -124,5 +122,13 @@
 		
 		add_claim = c:NSW
 		add_claim = c:UNT		
+	}
+	s:STATE_HAWAIIAN_ISLANDS = {
+		create_state = {
+			country = c:HAW
+			owned_provinces = { x492B26 xB5403E x6090C0 }
+		}
+		
+		add_homeland = cu:hawaiian
 	}
 }

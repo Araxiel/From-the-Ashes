@@ -1,0 +1,25 @@
+﻿## British leftovers
+
+### Homefires Counties, British Isle Survivors
+HMF = {
+	color = hsv{ 0.89  0.6  0.7 } 
+
+	country_type = unrecognized 
+
+	tier = principality
+	
+	cultures = { british scottish }
+	capital = STATE_HOME_COUNTIES
+}
+
+### British Fillers
+MDL = {
+	color = hsv{ 92 128 62 }
+
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { british scottish }
+	capital = STATE_MIDLANDS
+}

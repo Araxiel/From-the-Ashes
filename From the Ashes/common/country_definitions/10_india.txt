@@ -1,55 +1,4 @@
-﻿###### EXAMPLE ######
-# (Not official documentation)
-#EXA = {
-#	color = { 39 84 135 } #The colour of this country on the map.
-#
-#	country_type = recognized #See common\country_types
-#
-#	tier = kingdom 
-#			city_state
-#			principality
-#			grand_principality
-#			kingdom
-#			empire
-#			hegemony
-#
-#	cultures = { examplish mooreish } #What are their primary culture/s - you can set multiple.
-#	capital = STATE_EXAMPLE #Which state holds this nation's default capital
-#	is_named_from_capital = yes	#Not clear; but probaably literally what it says, nation is named after capital
-#}
-
-##### Tiers, still hard coded
-## city_state: "City-State"
-## principality: "Principality"
-## grand_principality: "Grand Principality"
-## kingdom: "Kingdom"
-## empire: "Empire"
-## hegemony: "Hegemony"
-
-#####################
-
-GBR = {
-	color = hsv{ 0.99  0.7  0.9 }
-
-	country_type = recognized
-
-	tier = empire	
-	
-	cultures = { british scottish }
-	capital = STATE_SOUTH_BENGAL
-}
-
-FRA = {
-	color = { 20  50  210 }
-
-	country_type = recognized
-
-	tier = empire
-	
-	cultures = { french }
-	capital = STATE_CONSTANTINE
-}
-
+﻿
 ## Indian Indigenous Countries
 
 HND = {
@@ -308,6 +257,17 @@ NEP = {
 	capital = STATE_HIMALAYAS
 }
 
+TIB = {
+	color = { 65  127  186 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { tibetan }
+	capital = STATE_LHASA
+}
+
 ORI = {
 	color = { 210  106  47 }
 	
@@ -377,4 +337,43 @@ ACE = {
 	capital = STATE_ACEH
 	cultures = { sumatran }
 	is_named_from_capital = yes
+}
+
+# Formable
+
+PAK = {
+	color = { 164 157 96 }
+
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { kashmiri panjabi sindi baluchi pashtun }
+	religion = sunni
+	capital = STATE_SINDH
+}
+
+
+# Releasable
+
+CEY = {
+	color = hsv360{ 0  70  61 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { sinhala }
+	capital = STATE_CEYLON
+}
+
+BLH = {
+	color = { 125 47 47}
+	
+	country_type = unrecognized
+
+	tier = kingdom
+
+	cultures = { baluchi }
+	capital = STATE_BALUCHISTAN
 }

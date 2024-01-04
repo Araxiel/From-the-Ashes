@@ -1,0 +1,629 @@
+﻿### German Minors
+
+	MEC = {
+		color = { 207  111  64 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { north_german }
+		capital = STATE_MECKLENBURG
+		is_named_from_capital = yes
+	}
+
+	NAS = {
+		color = { 107  94  169 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_HESSE
+	}
+
+	OLD = {
+		color = { 147  130  118 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { north_german }
+		capital = STATE_HANNOVER
+	}
+
+	SAX = {
+		color = { 155  147  180 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { north_german }
+		capital = STATE_SAXONY
+		is_named_from_capital = yes
+	}
+
+	WUR = {
+		color = { 111  162  128 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { south_german }
+		religion = protestant	
+		capital = STATE_WURTTEMBERG
+		is_named_from_capital = yes
+	}
+
+	WES = {
+		color = { 5 85 5 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_WESTPHALIA
+		is_named_from_capital = yes
+	}
+
+	POM = {
+		color = { 177 51 34 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_POMERANIA
+		is_named_from_capital = yes
+	}
+
+	RHN = {
+		color = { 77 165 128 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = empire
+		
+		cultures = { north_german south_german }
+		capital = STATE_HESSE
+	}
+
+	RHE = {
+		color = { 5 85 5 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_NORTH_RHINE
+		is_named_from_capital = yes
+	}
+
+	# Schleswig
+	SCH = {
+		color = { 235  225  95 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german danish }
+		capital = STATE_SCHLESWIG_HOLSTEIN
+		is_named_from_capital = yes
+	}
+
+
+	# Saxe-Coburg-Gotha
+	COB = {
+		color = { 180  137  148 }
+		
+		#country_type = recognized
+		country_type = decentralized
+		
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_SAXONY
+	}
+
+	# Saxe-Meiningen
+	MEI = {
+		color = { 144  181  106 }
+		
+		#country_type = recognized
+		country_type = decentralized
+		
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_SAXONY
+	}
+
+	# Saxe-Weimar
+	WEI = {
+		color = { 69 188 45 }
+		
+		#country_type = recognized
+		country_type = decentralized
+		
+		tier = grand_principality
+		
+		cultures = { north_german }
+		capital = STATE_SAXONY
+	}
+
+	# Schwarzburg
+	SCW = {
+		color = { 98 92 94 }
+		
+		#country_type = recognized
+		country_type = decentralized
+		
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_SAXONY
+	}
+
+	# Hesse-Kassel
+	HEK = {
+		color = { 150 55 75 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_HESSE
+	}
+
+	# Lippe-Detmold
+	LIP = {
+		color = { 203  62  185 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_WESTPHALIA
+	}
+
+	# Schaumburg-Lippe
+	SCM = {
+		color = { 25 155 155 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_WESTPHALIA
+	}
+
+	# Mecklenburg-Strelitz
+	MST = {
+		color = { 239  232  106 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { north_german }
+		capital = STATE_MECKLENBURG
+	}
+
+	# Hohenzollern
+	HOH = {
+		color = { 48  169  96 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { south_german }
+		capital = STATE_WURTTEMBERG
+	}
+
+	# Waldeck
+	WLD = {
+		color = { 169  194  107 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_HESSE
+	}
+	
+	ANH = {
+		color = { 203  93  124 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_ANHALT
+		is_named_from_capital = yes
+	}
+
+	BAD = {
+		color = { 118  229  215 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { south_german }
+		capital = STATE_BADEN
+		is_named_from_capital = yes
+	}
+
+	BAV = {
+		color = { 121  175  235 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { south_german }
+		capital = STATE_BAVARIA
+		is_named_from_capital = yes
+	}
+
+	BRA = {
+		color = { 116  92  39 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_BRUNSWICK
+		is_named_from_capital = yes
+	}
+
+	BRE = {
+		color = { 33  101  137 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = city_state
+		
+		cultures = { north_german }
+		capital = STATE_ELBE
+	}
+
+	DZG = {
+		color = { 78  129  151 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = city_state
+		
+		cultures = { north_german }
+		capital = STATE_WEST_PRUSSIA
+	}
+
+	FRM = {
+		color = { 243  201  33 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = city_state
+		
+		cultures = { north_german }
+		capital = STATE_HESSE
+	}
+
+	HAM = {
+		color = { 104  148  71 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = city_state
+		
+		cultures = { north_german }
+		capital = STATE_ELBE
+	}
+
+	HAN = {
+		color = { 164  217  127 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { north_german }
+		capital = STATE_HANNOVER
+		is_named_from_capital = yes
+	}
+
+	HES = {
+		color = { 146  108  146 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { north_german }
+		capital = STATE_HESSE
+		is_named_from_capital = yes
+	}
+
+	HOL = {
+		color = { 220  150  158 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { north_german }
+		capital = STATE_SCHLESWIG_HOLSTEIN
+		is_named_from_capital = yes
+	}
+
+	LUB = {
+		color = { 48  164  51 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = city_state
+		
+		cultures = { north_german }
+		capital = STATE_SCHLESWIG_HOLSTEIN
+	}
+
+### Low Countries
+
+	NET = {
+		color = hsv360{ 20  80  80 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { dutch }
+		capital = STATE_HOLLAND
+	}
+	UNL = {
+		color = { 255 118 28 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = empire
+		
+		cultures = { dutch flemish wallonian }
+		capital = STATE_HOLLAND
+	}
+
+	BEL = {
+		color = { 235 200 127 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { flemish wallonian }	
+		capital = STATE_FLANDERS
+	}
+	FLA = {
+		color = { 43  141  172 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		capital = STATE_FLANDERS
+		cultures = { flemish }
+		is_named_from_capital = yes
+	}
+	
+	WLL = {
+		color = { 131  141  142 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { wallonian }
+		capital = STATE_WALLONIA
+		is_named_from_capital = yes
+	}
+	LUX = {
+		color = { 53  140  73 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { wallonian north_german }
+		capital = STATE_WALLONIA
+	}	
+
+### Scandinavia
+
+	DEN = {
+		color = hsv{ 1.01  0.8  0.5 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { danish }
+		capital = STATE_ZEALAND
+	}
+
+	FIN = {
+		color = { 205  212  228 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = grand_principality
+		
+		cultures = { finnish }
+		capital = STATE_SOUTHERN_FINLAND
+	}
+
+	NOR = {
+		color = { 117  165  188 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures= { norwegian }
+		capital = STATE_EASTERN_NORWAY
+	}
+
+	SWE = {
+		color = { 87  130  199 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { swedish }
+		capital = STATE_SVEALAND
+	}
+
+	SCN = {
+		color = { 251  161  22 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { swedish }
+		capital = STATE_SCANIA
+		is_named_from_capital = yes
+	}
+
+### British Isles
+	IRE = {
+		color = { 112  150  105 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { irish }
+		capital = STATE_LEINSTER
+	}
+	SCO = {
+		color = { 199  175  12 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { scottish }
+		capital = STATE_LOWLANDS
+	}
+
+	ENG = {
+		color = { 180 99 58 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = kingdom
+		
+		cultures = { british }
+		capital = STATE_HOME_COUNTIES
+	}
+
+	ULS = {
+		color = hsv360{ 16  80  80 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { scottish irish }
+		religion = protestant
+		capital = STATE_ULSTER
+		is_named_from_capital = yes
+	}
+
+	WLS = {
+		color = { 121  126  148 }
+		
+		#country_type = recognized
+		country_type = decentralized
+
+		tier = principality
+		
+		cultures = { welsh }
+		capital = STATE_WALES
+		is_named_from_capital = yes
+	}
+	CNW = {
+		color = { 194 94 63}
+		#country_type = recognized
+		country_type = decentralized
+		tier = principality
+		cultures = { british }
+		capital = STATE_WEST_COUNTRY
+	}
+	
+### France
+	COR = {
+		color = { 68 242 236}
+		#country_type = recognized
+		country_type = decentralized
+		tier = principality
+		cultures = { corsican }
+		capital = STATE_CORSICA
+	}

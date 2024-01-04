@@ -1,0 +1,57 @@
+﻿GER = {
+	color = { 147 130 110 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_BRANDENBURG
+}
+
+ITA = {
+	color = { 125  171  84 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_LAZIO
+}
+
+SCA = {
+	color = { 62  122  189 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { swedish norwegian danish icelandic }
+	capital = STATE_SVEALAND
+}
+
+# India
+BHT = {
+	color = { 255  140  0 }
+	
+	country_type = recognized
+
+	valid_as_home_country_for_separatists = { always = no }
+
+	tier = hegemony
+	
+	cultures = { assamese avadhi baluchi bengali bihari gujarati kanauji kannada malayalam marathi oriya panjabi pashtun rajput sindi tamil telegu }
+	capital = STATE_DELHI
+}
+
+HRE = {
+	color = { 250  250  245 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { north_german south_german czech dutch flemish wallonian alemannic north_italian slovene }
+	capital = STATE_AUSTRIA
+}

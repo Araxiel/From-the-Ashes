@@ -1,3 +1,23 @@
 In vanilla Vic3, every country has its very own file, that includes the tag and the spelled out name.
 While that might make sense for Vic3 devs' workflows, it seems like quite a hassle. 
 As such here most countries are bundled together.
+
+The first number relates to the following entries:
+
+00_west_europe
+01_south_europe
+02_east_europe
+03_north_africa
+04_subsaharan_africa
+05_north_america
+06_central_america
+07_south_america
+08_middle_east
+09_central_asia
+10_india
+11_east_asia
+12_indonesia
+13_australasia
+14_siberia
+
+Which specific file they go in tho, depends more on their capital together with vibes. I.e. Great Britain is in `10` for India, because that's where it's centered on at the start, meanwhile France fits more in `01` for South Europe, even tho in Vanilla it's in Western Europe and the capital is in north Africa.

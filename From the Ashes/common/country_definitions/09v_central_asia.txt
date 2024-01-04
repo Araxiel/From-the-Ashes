@@ -1,0 +1,73 @@
+﻿
+# Kalmykia
+KLM = {
+	color = { 58 65 73 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { kalmyk }
+	capital = STATE_ASTRAKHAN
+}
+
+KZH = {
+	color = { 90 120 120 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { kazak }
+	capital = STATE_URALSK
+}
+
+UZH = {
+	color = { 70 100 80 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { kazak }
+	capital = STATE_AKMOLINSK
+}
+
+OZH = {
+	color = { 80 80 100 }
+	
+	#country_type = unrecognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { kazak }
+	capital = STATE_SEMIRECHE
+}
+
+CAU = {
+	color = { 200 100 55 }
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = empire
+	
+	cultures = { azerbaijani armenian georgian }
+	capital = STATE_GREATER_CAUCASUS
+}
+
+SAV = {
+	color = { 235 196 231 }
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	capital = STATE_SAVOY
+	cultures = { francoprovencal }
+}

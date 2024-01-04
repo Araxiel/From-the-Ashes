@@ -1,0 +1,111 @@
+﻿
+# North America
+
+ASA = {
+	color = { 212 100 141 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { afro_american }
+	capital = STATE_GEORGIA
+}
+
+LOU = {
+	color = { 53 52 144 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { cajun afro_antillean }
+	capital = STATE_LOUISIANA
+}
+
+NCR = {
+	color = { 123 175 212 } #Carolina Blue. It pains me to do this as an NCSU alumnus.
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { dixie }
+	capital = STATE_NORTH_CAROLINA
+}
+
+SCR = {
+	color = { 245 102 0 }
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { dixie }
+	capital = STATE_SOUTH_CAROLINA
+}
+
+CLI = {
+	color = { 135 113 196 } 
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_NORTH_CAROLINA
+}
+
+GRG = {
+	color = { 181 0 39 } 
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { dixie }
+	capital = STATE_GEORGIA
+}
+
+
+FLR = {
+	color = { 255 198 142 } 
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { dixie }
+	capital = STATE_FLORIDA
+}
+
+TIS = {
+	color = { 190 133 82 }
+
+	#country_type = unrecognized
+	country_type = decentralized
+
+	tier = empire
+	
+	cultures = { cherokee iroquoian siouan }
+	capital = STATE_OKLAHOMA
+}
+
+# Michigan
+UOM = {
+	color = { 0 39 76 }
+	
+	#country_type = recognized
+	country_type = decentralized
+
+	tier = principality
+	
+	cultures = { yankee }
+	capital = STATE_MICHIGAN
+	is_named_from_capital = yes
+}

@@ -1,0 +1,21 @@
+﻿Countries are grouped by general vibes, and in relation to their history files.
+
+There should be an attempt to have it be consistent across all files (history/countries, history/states, country_definitions etc.).
+
+00_west_europe
+01_south_europe
+02_east_europe
+03_north_africa
+04_subsaharan_africa
+05_north_america
+06_central_america
+07_south_america
+08_middle_east
+09_central_asia
+10_india
+11_east_asia
+12_indonesia
+13_australasia
+14_siberia
+
+if there's a 'v' behind the number, this means that file only contains vanilla nations which have little to no role change, and are primarily just filler or releasable.
