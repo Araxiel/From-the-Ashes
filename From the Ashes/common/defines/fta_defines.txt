@@ -1,12 +1,12 @@
 ﻿NGame = {
-	START_DATE = "1866.1.1" 
-	END_DATE = "1966.1.1" 
+	START_DATE = "1876.1.1" 
+	END_DATE = "1976.1.1" 
 }
 
 NPolitics = {
-	DEFAULT_LAW_ACTIVATION_DATE = "1866.1.1"	
+	DEFAULT_LAW_ACTIVATION_DATE = "1876.1.1"	
 }
 
 NPops = {
-	LOYALTIES_GAIN_GRACE_PERIOD = "1868.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
+	LOYALTIES_GAIN_GRACE_PERIOD = "1878.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied
 }
