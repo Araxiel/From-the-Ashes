@@ -413,8 +413,8 @@
 
 ### Low Countries
 
-	NET = {
-		color = hsv360{ 20  80  80 }
+	NTS = {
+		color = hsv360{ 20  100  90 }
 		
 		#country_type = recognized
 		country_type = decentralized

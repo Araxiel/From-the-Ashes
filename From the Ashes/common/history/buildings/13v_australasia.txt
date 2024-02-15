@@ -28,7 +28,7 @@
 		}
 	}
 	s:STATE_VICTORIA={
-		region_state:NSW={
+		region_state:VIC={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

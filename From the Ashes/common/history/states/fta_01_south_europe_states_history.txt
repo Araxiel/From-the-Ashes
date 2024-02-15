@@ -1,4 +1,4 @@
-﻿STATE = {
+﻿STATES = {
 	
 	s:STATE_CORSICA = {
 		create_state = {

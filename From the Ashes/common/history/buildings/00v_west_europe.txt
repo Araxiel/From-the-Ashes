@@ -2000,7 +2000,7 @@
 		}
 	}
 	s:STATE_HOLLAND={
-		region_state:NET={
+		region_state:NTS={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -2082,7 +2082,7 @@
 		}
 	}
 	s:STATE_FRIESLAND={
-		region_state:NET={
+		region_state:NTS={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -2122,7 +2122,7 @@
 		}
 	}
 	s:STATE_GELRE={
-		region_state:NET={
+		region_state:NTS={
 			create_building={
 				building="building_government_administration"
 				level=2

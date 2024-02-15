@@ -298,57 +298,6 @@ STATES = {
 		add_homeland = cu:kachin
 		add_homeland = cu:shan		
 	}
-
-	s:STATE_BURMA = {
-		create_state = {
-			country = c:BUR
-			owned_provinces = { x9070df x26a2e9 x6e8fa2 xd5035c xd2f36a x212fe8 x75be27 x397139 x2ff9bd x3db5a9 x118ecf xf5193b x60cbbf xa6f4c3 xda0253 x620442 xe2c923 xa17ab8 x546b18 xb7e202 x2497e7
-			}
-		}
-		add_homeland = cu:burmese
-		add_homeland = cu:kachin	
-		
-	}
-	s:STATE_PEGU = {
-		create_state = {
-			country = c:BUR
-			owned_provinces = { x020CFE xB0B0A0 x595BB6 x1070E0 x2BD769 x2F9F98 xA85E24 xB13330 xC2EA2C xF0F78C xC9BBA0 x81D108 x2906F0 x2D91EF x1FD921 xC0E31F xCF7060 x02F3AF }
-		}
-		create_state = {
-			country = c:GBR
-			owned_provinces = { xB316F6 x11F060 x9A018D xE85BF0 xD5DB0B x6305C9 xF691D2 x67520F xB030A0 }
-		}
-		
-		add_homeland = cu:karen
-		add_homeland = cu:mon
-		add_homeland = cu:burmese
-	}
-	s:STATE_NORTH_SUMATRA = {
-		create_state = {
-			country = c:DEI
-			owned_provinces = { x8A3E15 xD2D88C x257D2C x79A66E x85B004 x4E9BC1 x9D4BD1 xDC4677 xEAF2DC xA0CEED x9377DF xE0A0F0 x91B001 x01C030 xA1341F x7C7431 x339E85 xD3A66E x983FEB }
-		}
-		create_state = {
-			country = c:SAK
-			owned_provinces = { x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F }
-		}
-		create_state = {
-			country = c:JMB
-			owned_provinces = { x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 }
-		}
-		
-		add_homeland = cu:sumatran
-		add_homeland = cu:batak
-	}
-	s:STATE_SOUTH_SUMATRA = {
-		create_state = {
-			country = c:DEI
-			owned_provinces = { xDBE794 xA97585 x74812B x847F76 xE226FB x31E5B1 x067967 xE49A2F xE962F4 x8FBCF4 xCC1A24 x174432 x7945C0 xFB099E xD10CCE x42D05B xB0F538 x7A4DC8 x0F65F5 x27FD1C x7D6D54 x3099D2 x3441E9 xD2193E x8527A9 x7FFD6B x0D0BEB x4CF770 x00F15A x03CEC7 }
-		}
-		
-		add_homeland = cu:sumatran
-		add_homeland = cu:batak
-	}
 	
 	s:STATE_HIMALAYAS = {
 		create_state = {

@@ -1,0 +1,10 @@
+VIC = {
+	color = hsv{ 0.90  0.6  0.85 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_VICTORIA
+	cultures = { australian }
+}

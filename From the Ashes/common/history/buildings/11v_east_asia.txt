@@ -1378,7 +1378,7 @@
 		}
 	}
 	s:STATE_PEGU={
-		region_state:BUR={
+		region_state:GBR={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -1409,8 +1409,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:BIC={
 			create_building={
 				building="building_opium_plantation"
 				level=1

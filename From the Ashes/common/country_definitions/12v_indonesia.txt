@@ -8,3 +8,69 @@
 	cultures = { thai }
 	capital = STATE_BANGKOK
 }
+
+BAL = {
+	color = { 201  97  74 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { balinese moluccan }
+	capital = STATE_SUNDA_ISLANDS
+}
+
+BHU = {
+	color = { 93  180  76 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { tibetan }
+	capital = STATE_HIMALAYAS
+}
+
+LAN = {
+	color = { 141  89  174 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { hakka }
+	capital = STATE_WEST_BORNEO
+}
+
+BRU = {
+	color = { 41  89  174 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+
+BUR = {
+	color = { 109  168  127 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_BURMA
+}
+
+CAM = {
+	color = { 127  180  60 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { khmer }
+	capital = STATE_CAMBODIA
+}
